@@ -16,6 +16,10 @@ print
 
 print("Hola", "Mundo", sep=", ", end="!\n")
 
+nombre = "Alex"
+
+print(f"Hola, {nombre}!")
+
 # este logging es para mosrar distintos tipos de logging de la aplicación 
 
 logging.debug("Mensaje de depuración")
