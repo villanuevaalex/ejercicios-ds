@@ -32,3 +32,6 @@ else:
     print("\nCalculo de Celsius a Fahrenheit: ")
     conversion = convertir_a_Fahrenheit(value)
     print(f"Resultado de la conversion ({value:.2f}°F) a Celsius: {conversion:.2f}°C")
+
+# NOTA: para el redondeo se puede usar round tambien 
+# conversion = round(conversion, 2)
